@@ -1,0 +1,206 @@
+html,body{
+    padding:0;
+    margin: 0;
+}
+
+.links{
+    color:white;
+}
+
+#container{
+    margin:5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(4, 250px);
+    grid-gap:50px;
+
+}
+
+#red{
+    background-color: red;
+    border-radius: 30px;
+    border: 20px solid red;
+    grid-column: 1/3;
+
+}
+
+#blue{
+    background-color: blue;
+    border-radius: 30px;
+    border: 20px solid blue;
+    grid-column: 3/5;
+}
+
+#green{
+    background-color: green;
+    border-radius: 30px;
+    border: 20px solid green;
+    grid-column: 1/2;
+}
+
+#purple{
+    background-color: purple;
+    border-radius: 30px;
+    border: 20px solid purple;
+    grid-column: 2/5;
+}
+
+#yellow{
+    background-color: yellow;
+    border-radius: 30px;
+    border: 20px solid yellow;
+    grid-column: 1/5;
+}
+
+#containerTwo{
+    margin:5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(6, 250px);
+    grid-gap:50px;
+
+}
+
+#redTwo{
+    background-color: red;
+    border-radius: 30px;
+    border: 20px solid red;
+    grid-column: 1/5;
+    grid-row:1/3;
+
+}
+
+#blueTwo{
+    background-color: blue;
+    border-radius: 30px;
+    border: 20px solid blue;
+    grid-column: 1/3;
+    grid-row:3/7;
+}
+
+#greenTwo{
+    background-color: green;
+    border-radius: 30px;
+    border: 20px solid green;
+    grid-column: 3/5;
+    grid-row:3/5;
+}
+
+#purpleTwoOne{
+    background-color: purple;
+    border-radius: 30px;
+    border: 20px solid purple;
+    grid-column: 3/4;
+    grid-row: 5/7;
+
+}
+
+#purpleTwoTwo{
+    background-color: purple;
+    border-radius: 30px;
+    border: 20px solid purple;
+    grid-column: 4/5;
+    grid-row: 5/7;
+}
+
+#containerThree > header{
+    background-color:grey;
+    font-size:3rem;
+    border: 20px solid grey;
+    border-radius:30px;
+}
+#containerThree > span{
+    background-color:rgb(55, 51, 51);
+    font-size:3rem;
+    border: 20px solid rgb(55, 51, 51);
+    border-radius:30px;
+}
+#containerThree > p{
+    background-color:rgb(55, 51, 51);
+    font-size:3rem;
+    border: 20px solid rgb(55, 51, 51);
+    border-radius:30px;
+    height: auto;
+}
+#containerThree > div{
+    background-color:rgb(165, 163, 163);
+    font-size:3rem;
+    border: 20px solid rgb(165, 163, 163);
+    border-radius:30px;
+}
+#containerThree > footer{
+    background-color:grey;
+    font-size:3rem;
+    border: 20px solid grey;
+    border-radius:30px;
+}
+
+@media only screen and (max-device-width: 767px){
+    #containerThree{
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows:repeat(6,auto);
+    grid-gap:5px;
+    
+}
+    #containerThree > p{
+        grid-row:3/5;
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px){
+    #containerThree{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(4,300px);
+    grid-gap:5px;
+    }
+    #containerThree > header{
+        grid-column: 1/5;
+    }
+    #containerThree > span{
+        grid-column: 1/2;
+        
+    }
+    #containerThree > p{
+        grid-column: 2/5;
+        grid-row:2/3;
+    }
+    #containerThree > div{
+        grid-column: 1/5;
+    }
+    #containerThree > footer{
+        grid-column: 1/5;
+    }
+
+}
+
+@media only screen and (min-device-width:1025px){
+    #containerThree{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(3,300px);
+    grid-gap:5px; 
+    
+    }
+    #containerThree > header{
+        grid-column: 1/5;
+    }
+    #containerThree > span{
+        grid-column: 1/2;
+        
+    }
+    #containerThree > p{
+        grid-column: 2/4;
+        grid-row:2/3;
+    }
+    #containerThree > div{
+        grid-column: 4/5;
+    }
+    #containerThree > footer{
+        grid-column: 1/5;
+    }
+
+}
+

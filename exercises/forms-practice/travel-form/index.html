@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link href="styles.css" rel="stylesheet">
+        </head>
+        <body>
+            <form name="form" id="form">
+                First Name:<input name="firstName" required/>
+                Last Name:<input name="lastName" required/>
+                Age:<input type="number" maxlength="2" name="age" />
+                </div>
+                <div>Gender:
+                Male<input type="radio" name="gender" value="Male"/>
+                Female<input type="radio" name="gender" value="Female"> 
+                </div>
+                Destination:<select name="destination">
+                    <option disabled hidden selected required>Please select a destination</option>
+                    <option value="Seattle">Seattle</option>
+                    <option value="New York">New York</option>
+                    <option value="Selma">Selma</option>
+                </select>
+                Dietary Considerations (Select All That Apply):<div> 
+                    Vegan<input type="checkbox" name="considerations" value="Vegan"/>
+                    Gluten Allergy<input type="checkbox" name="considerations" value="Gluten Allergy"/>
+                    Lactos Allergy<input type="checkbox" name="considerations" value="Lactos Allergy"/>
+                    No Likey Spicy<input type="checkbox" name="considerations" value="No Likey Spicy"/>
+                </div>
+                <button>Submit</button>
+            </form>
+            <script src="apps.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,73 @@
+header{
+    margin:20px;
+    font-size:100px;
+    text-align: center;
+}
+form{
+    margin:20px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form > input{
+    width: 60%;
+    height:60px;
+    font-size:20px;
+}
+form > span{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+form > select{
+    width: 40%;
+    height:40px;
+    font-size:20px;
+   
+}
+
+
+.todo-item{
+    margin-bottom:10px;
+    margin-left:50px;
+    margin-top:10px
+}
+.todo-item > h1{
+    font-size: 40px;
+
+}
+.todo-item > h2{
+    font-size: 25px;
+
+}
+.todo-item > img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+
+}
+.todo-item > div{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: baseline;
+    
+
+}
+
+.todo-item > div > h3{
+    font-size: 20px;
+    padding-right:20px
+
+}
+.todo-item > div > input{
+    height:20px;
+    width:20px;
+}
+.todo-item > div > label{
+   font-size: 20px;
+   margin-right:20px
+}

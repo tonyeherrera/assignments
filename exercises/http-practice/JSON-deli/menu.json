@@ -1,0 +1,64 @@
+{
+    "menu":{
+        "appetizers":{
+            "carpacio":{
+                "name": "Carpacio",
+                "ingredients": ["Raw, thinley sliced beef","Arugula","Parmesan","Balsalmic Reduction","Garlic Aoli","Capers"],
+                "description": "Raw Beef and goods"
+            },
+            "humus and pita chips":{
+                "name": "Humus-a-mummus",
+                "ingredients": ["Humus","Pita Chips"],
+                "description":"Humus and Pita Chips duh"
+            }
+        },
+        "cold sandwiches":{
+            "ham and cheese":{
+                "name": "Ham-n-Cheese",
+                "ingredients":["Ham","White Bread","American Cheese"],
+                "description":"Plain-ole Ham-n-Queso"
+            },
+            "pbj":{
+                "name": "PBJ",
+                "ingredients":["Peanut Butter","White Bread", "Pickle Jelly"],
+                "description":"Don't knock it till you try it! Peanut Butter and Pckles... mmmm?"
+            }
+        },
+        "hot sandwiches":{
+            "philly cheese steak":{
+                "name":"Philly",
+                "ingredients":["White Cheddar","Steak","Hoagie","Green Peppers","Onions"],
+                "description":"Classic"
+            },
+            "reuben":{
+                "name":"Reuben",
+                "ingredients":["Roast Beef","Saurkraut","Rye Bread","Thousand Island Dressing"],
+                "description":"Slimey yet satisfying"
+            }
+        },
+        "deserts":{
+            "cheescake":{
+                "name":"Cheesecake",
+                "ingredients":["Cheese","Cake"],
+                "description":"Classic New York style deliciousness"
+            },
+            "pudding":{
+                "name":"Puddin'",
+                "ingredients":["Pudding stuff"],
+                "description":"Recipie on back of box"
+            }
+        },
+        "drinks":{
+            "Coke":{
+                "name":"Coca-cola",
+                "ingredients":["Proprietary"],
+                "description":"An American Fav"
+            },
+            "Lemonade":{
+                "name":"Lemonada",
+                "ingredients":["Water","Lemon Drink Mix"],
+                "description":"Classic powder and water"
+            }
+        }
+    }
+}

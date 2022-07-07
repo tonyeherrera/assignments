@@ -1,0 +1,46 @@
+body{
+    min-height:100vh;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-is-clothed{
+    background: linear-gradient(20deg, blue, orange);
+}
+.main-is-clothed{
+    padding:50px;
+    display:flex;
+    flex-direction: column-reverse;
+    min-height:60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border:3px ridge orange;
+    border-radius: 6px;
+}
+.footer-is-clothed{
+    position:sticky;
+    background-color: black;
+    color:aquamarine;
+    
+}
+
+.nav-isnt-clothed{
+    background-color: blanchedalmond;
+}
+.main-isnt-clothed{
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    min-height:60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.footer-isnt-clothed{
+    background-color:blanchedalmond;
+}
+

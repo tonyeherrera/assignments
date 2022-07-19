@@ -1,6 +1,8 @@
 import React from "react"
 import Form from "./Form"
+import List from "./List"
 import {DataContextProvider} from "./dataContext"
+
 
 
 
@@ -8,21 +10,13 @@ import {DataContextProvider} from "./dataContext"
 
 function App(props) {
 
-  // const [uglyData, setUglyData] = useState({initData})
-
-  //   useEffect(()=>{
-  //       axios.get(`https://api.vschool.io/tonyeherrera/thing`)
-  //           .then(response => {
-  //               console.log('respones', response)
-  //               setUglyData(response.data)
-  //           })   
-  //           .catch(error => console.log(error))
-  //   },[])
+  
 
   return (
     <>
       <DataContextProvider>
         <Form />
+        <List />
       </DataContextProvider>
     </>
   );
